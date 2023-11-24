@@ -9,7 +9,7 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-div {
+div nav {
     display: flex;
     justify-content: space-between;
 }
@@ -52,12 +52,17 @@ button:hover{
     font-size: 1.5em;
 }
 
-input {
+form input {
     width: 200px;
     height: 30px;
     text-align: center;
 }
 
+input #img-rd1 #img-rd2 #img-rd3 {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
 
 div a {
     text-decoration: none;
@@ -73,7 +78,33 @@ div a:hover{
     border-radius: 30px;
     background-color:var(--principal-color);
     padding: 5px 18px 5px;
+    transition: .3s;
 }
+
+
+#btn-radio{
+    display: flex;
+    text-align: center;
+    margin-left: 50%;
+}
+
+section.slider {
+    margin: 0;
+    padding: 0 !important;
+    width: 300%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+
+.slider-box img{
+    width: 100vw;
+    height: 100vh;
+    transition: 1s;
+}
+
 
 
 /* Modo Para Celular - mobile */

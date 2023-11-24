@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto - loja perfumes</title>
+    <title>Fundamentos CSS - DIO</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,27 +16,62 @@
 
 
 <body>
-   
+    /* Navegação */
     <header>
         <div id="banner-menu">
-            <ul>
-                <a href="#home">Home</a>
-                <a href="#Contato">Contato</a>
-                <a href="#Somos">Nossa História</a>
-            </ul>
+            <nav>
+                <ul>
+                    <a href="#home">Home</a>
+                    <a href="#Contato">Contato</a>
+                    <a href="Somos">Nossa História</a>
+                </ul>
 
-            <form action="submit">
-                <label >Login: </label><input type="text" placeholder="Usuário" required  id="banner-login" >
-                <label >Senha: </label><input type="password" placeholder="senha" required id="banner-login" >
+                <form action="submit">
+                    <label >Login: </label><input type="text" placeholder="Usuário" required  id="banner-login" >
+                    <label >Senha: </label><input type="password" placeholder="senha" required id="banner-login" >
 
-                <button type="submit" id="banner-login">Entrar</button>
-                
-            </form>
+                    <button type="submit" id="banner-login">Entrar</button>
+                    
+                </form>
+            </nav>
         </div>
     </header>
 
+    <br>
+    <br>
+
     <main>
         
+       
+        <section class="slider">
+
+                <div class="slider-box primeiro">
+                    <img src="assets/perfume1.jpg"  >
+                </div>
+
+                <div class="slider-box ">
+                    <img src="assets/perfume2.jpeg"  >
+                </div>
+
+                <div class="slider-box ">
+                    <img src="assets/perfume3.jpeg" >
+                </div>
+
+        </section>
+        
+        <section id="btn-radio">
+        <div>
+            <input type="radio" >
+        </div>
+        <div>
+            <input type="radio" >
+        </div>
+        <div>
+            <input type="radio" >
+        </div>
+
+        </section>
+
     </main>
     
 </body>
